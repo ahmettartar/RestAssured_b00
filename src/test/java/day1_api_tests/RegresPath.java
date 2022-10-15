@@ -1,13 +1,9 @@
-package api_tests;
+package day1_api_tests;
 import static io.restassured.RestAssured.*;
 
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 public class RegresPath {

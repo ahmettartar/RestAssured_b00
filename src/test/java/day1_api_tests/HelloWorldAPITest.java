@@ -1,12 +1,10 @@
-package api_tests;
+package day1_api_tests;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-
-import javax.annotation.meta.When;
 
 public class HelloWorldAPITest {
 
