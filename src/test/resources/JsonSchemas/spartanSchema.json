@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "default": {},
+  "title": "Root Schema",
+  "required": [
+    "id",
+    "name",
+    "gender",
+    "phone"
+  ],
+  "properties": {
+    "id": {
+      "type": "integer",
+      "default": 0,
+      "title": "The id Schema",
+      "examples": [
+        128
+      ]
+    },
+    "name": {
+      "type": "string",
+      "default": "",
+      "title": "The name Schema",
+      "examples": [
+        "Hamza"
+      ]
+    },
+    "gender": {
+      "type": "string",
+      "default": "",
+      "title": "The gender Schema",
+      "examples": [
+        "Male"
+      ]
+    },
+    "phone": {
+      "type": "integer",
+      "default": 0,
+      "title": "The phone Schema",
+      "examples": [
+        59696969660
+      ]
+    }
+  },
+  "examples": [{
+    "id": 128,
+    "name": "Hamza",
+    "gender": "Male",
+    "phone": 59696969660
+  }]
+}
